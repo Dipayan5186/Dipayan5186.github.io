@@ -326,6 +326,7 @@ img {
 }
 
 .publications__subtitle {
+  margin-top: var(--mb-5);
   margin-bottom: var(--mb-2);
   font-size:1.15rem;
   font-weight: bold;
