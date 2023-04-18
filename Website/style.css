@@ -89,7 +89,7 @@ img {
   font-size: var(--h2-font-size);
   color: var(--first-color);
   margin-top: var(--mb-5);
-  margin-bottom: var(--mb-4);
+  margin-bottom: -1rem;
   text-align: center;
 }
 
@@ -110,6 +110,7 @@ img {
   padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-top: -4rem;
 }
 
 /*===== LAYOUT =====*/
@@ -712,7 +713,7 @@ teaching__names {
     padding-bottom: 3rem;
   }
   .section-title {
-    margin-bottom: var(--mb-6);
+    margin-bottom: -1rem;
   }
   .section-title::after {
     width: 80px;
