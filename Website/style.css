@@ -12,7 +12,7 @@
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
-  --h2-font-size: 1.25rem;
+  --h2-font-size: 2rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
   /*===== Margines =====*/
@@ -143,6 +143,10 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  :root {
+    --h2-font-size: 1.5rem;
+  }
+
   .nav__menu {
     position: fixed;
     top: var(--header-height);
