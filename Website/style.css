@@ -32,6 +32,11 @@
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
   }
+
+  .contact__container {
+   padding-left: 2rem;
+  }
+
 }
 
 /*===== BASE =====*/
@@ -295,6 +300,7 @@ img {
 .contact__container {
   row-gap: 2rem;
   text-align: center;
+  grid-template-columns: repeat(1, 1fr);
  /*background-color: rgb(229, 229, 229) !important;*/
   margin-bottom: var(--mb-5);
   margin-top: var(--mb-5);
@@ -314,7 +320,7 @@ img {
 }
 
 .contact__img img {
-  width: 200px;
+  width: 100%;
   border-radius: .5rem;
 }
 
@@ -536,7 +542,7 @@ teaching__names {
 
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
   .about {
     row-gap: 2rem;
     padding: 4rem 0 2rem;
@@ -562,10 +568,16 @@ teaching__names {
 
   .contact__container {
     columns: unset;
-    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     text-align: initial;
   }
+
+  .contact__container {
+    justify-items: center;
+  }
+
   .publications__container {
     columns:unset;
     justify-content: center;
@@ -607,10 +619,6 @@ teaching__names {
   .contact__form {
     width: 360px;
     padding-top: 2rem;
-  }
-
-  .contact__container {
-    justify-items: center;
   }
 }
 
@@ -749,7 +757,21 @@ teaching__names {
   }
   .contact__container {
     padding-top: 5rem;
+    grid-template-columns: repeat(2, 1fr);
   }
+
+  .contact__container {
+    columns:unset;
+    justify-content: center;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    align-items: center;
+    text-align: initial;
+  }*/
+
+  .contact__container {
+    justify-items: center;
+  }
+
   .contact__img img {
     width: 300px;
   }
