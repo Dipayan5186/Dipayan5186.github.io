@@ -58,18 +58,40 @@ body {
 }
 
 h1, h2, p {
+  margin-bottom: 5px;
   margin: 0;
   justify-content:center;
   text-align: justify;
   text-justify: auto;
 }
 
+h5 {
+  margin-bottom: 2px;
+}
+
 ul {
-  margin: 0;
+  margin: 5pt;
   padding: 0;
   list-style: none;
   justify-content: center;
 }
+
+.boite-arrondie {
+      width: 100%;
+      border: 2px solid #090909;
+      border-radius: 20px;
+      padding: 15px;
+      display: inline-block;
+    }
+
+  .boite-arrondie_color {
+      width: 1018px;
+      background-color: #fbf8ef;
+      border: 2px solid #0077cc;
+      border-radius: 20px;
+      padding: 15px;
+      display: inline-block;
+    }
 
 .segments{
   list-style: disc;
@@ -815,3 +837,5 @@ teaching__names {
     width: 450px;
   }
 }
+
+
