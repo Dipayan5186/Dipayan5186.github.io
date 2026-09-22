@@ -838,4 +838,19 @@ teaching__names {
   }
 }
 
+.topics {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.topics span {
+  display: inline;
+}
+
+.topics span + span::before {
+  content: " • ";
+  color: #2563eb;
+  font-weight: bold;
+}
+
 
